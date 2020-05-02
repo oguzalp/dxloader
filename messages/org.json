@@ -1,0 +1,7 @@
+{
+  "configurationPathDescription": "it is the path of the configuration yaml file",
+  "tasknameDescription": "Supports comma seperated taskname.It allows to run multiple given task(s)",
+  "runAllDescription": "it will run all tasks",
+  "sourceOrgDescription": "source org username or alias",
+  "commandDescription": "dxload data migration plugin"
+}

@@ -1,0 +1,15 @@
+*-debug.log
+*-error.log
+/.nyc_output
+/dist
+/lib
+/package-lock.json
+/tmp
+node_modules
+.vscode/
+.sfdx/
+.forceignore
+dxloader-config.yaml
+config/
+data/
+*-project.json
