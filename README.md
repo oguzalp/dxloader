@@ -1,5 +1,9 @@
-sfdx dxloader plugin
+sfdx dataloader plugin
 =================
+
+## Install
+
+sfdx plugins:install dxloader
 
 ## ` sfdx dxload:start [-p <string>] [-u <string>] [-s <string>] [-t <array>] [--json] `
 
