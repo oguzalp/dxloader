@@ -1,6 +1,7 @@
-import { isNullOrUndefined } from "util";
 
-export function mapFieldResult(fieldsMap:object,records:Array<any>){
+import { isNullOrUndefined } from 'util'
+
+export function mapFieldResult(fieldsMap:object,records:Array<object>){
     if(isNullOrUndefined( fieldsMap )){
       return records;
     }else{
@@ -10,13 +11,12 @@ export function mapFieldResult(fieldsMap:object,records:Array<any>){
             res[fieldsMap[key]] = rec[key];
           }
           return res;
-
       });
       return mapResult;
     } 
-}
+  } 
 
 export function getTime():string{
-  let date = new Date();
-  return `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+    let date = new Date();
+    return `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
 }
